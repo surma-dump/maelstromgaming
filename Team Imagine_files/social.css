@@ -1,0 +1,177 @@
+/*--------------------------------------------------
+	  **Tech And All Social Icons Roll Over**
+---------------------------------------------------*/
+.social-icons {
+	padding: 0!important;
+	list-style-type: none!important;
+    align-content:center;
+    display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+.social-icons li{
+	list-style: none;
+	float: right!important;
+	margin-right: 2px!important;
+	margin-bottom: 2px!important;
+	padding: 0px!important;
+	display: inline!important;
+	width: auto!important;
+
+}			
+.social-icons li a {
+	-moz-transition: all 0.3s ease 0s;
+	display: block!important;
+	float: left!important;
+	height: 100%!important;
+	margin: 0!important;
+	padding: 0!important;
+	width: 40px!important;
+	height: 40px!important;
+	text-indent: -9999px!important;
+}
+.social-icons li a:hover {
+	background-position: 0 -40px!important;
+}
+.social-icons li a {
+	background-color:transparent;
+}
+.social-icons li.aim a {
+	background: url(../img/aim.png) no-repeat 0 0;
+}
+.social-icons li.aim a:hover {
+	background-color: #e95a00;
+}
+.social-icons li.apple a {
+	background: url(../img/apple.png) no-repeat 0 0;
+}
+.social-icons li.apple a:hover {
+	background-color: #606060;
+}
+.social-icons li.behance a {
+	background: url(../img/behance.png) no-repeat 0 0;
+}
+.social-icons li.behance a:hover {
+	background-color: #18a3fe;
+}
+.social-icons li.blogger a {
+	background: url(../img/blogger.png) no-repeat 0 0;
+}
+.social-icons li.blogger a:hover {
+	background-color: #fb913f;
+}
+.social-icons li.cargo a {
+	background: url(../img/cargo.png) no-repeat 0 0;
+}
+.
+.social-icons li.delicious a {
+	background: url(../img/delicious.png) no-repeat 0 0;
+}
+.social-icons li.facebook a {
+	background: url(../img/facebook.png) no-repeat 0 0;
+}
+.social-icons li.facebook a:hover {
+	background-color: #3b5998;
+}
+.social-icons li.flickr a {
+	background: url(../img/flickr.png) no-repeat 0 0;
+}
+.social-icons li.flickr a:hover {
+	background-color: #f1628b;
+}
+.social-icons li.google a {
+	background: url(../img/google.png) no-repeat 0 0;
+}
+.social-icons li.google a:hover {
+	background-color: #dd4b39;
+}
+.social-icons li.googleplus a {
+	background: url(../img/googleplus.png) no-repeat 0 0;
+}
+.social-icons li.googleplus a:hover {
+	background-color: #d94a39;
+}
+.social-icons li.twitch a {
+	background: url(../img/twitch.png) no-repeat 0 0;
+}
+.social-icons li.twitch a:hover {
+	background-color: #6441a5;
+}
+.social-icons li.linkedin a {
+	background: url(../img/linkedin.png) no-repeat 0 0;
+}
+.social-icons li.linkedin a:hover {
+	background-color: #1d87bd;
+}
+.social-icons li.orkut a {
+	background: url(../img/orkut.png) no-repeat 0 0;
+}
+.social-icons li.orkut a:hover {
+	background-color: #ed2590;
+}
+.social-icons li.paypal a {
+	background: url(../img/paypal.png) no-repeat 0 0;
+}
+.social-icons li.paypal a:hover {
+	background-color: #32689a;
+}
+.social-icons li.picasa a {
+	background: url(../img/picasa.png) no-repeat 0 0;
+}
+.social-icons li.picasa a:hover {
+	background-color: #444;
+}
+.social-icons li.pinterest a {
+	background: url(../img/pinterest.png) no-repeat 0 0;
+}
+.social-icons li.pinterest a:hover {
+	background-color: #cb2027;
+}
+.social-icons li.rss a {
+	background: url(../img/rss.png) no-repeat 0 0;
+}
+.social-icons li.rss a:hover {
+	background-color: #fe9900;
+}
+.social-icons li.skype a {
+	background: url(../img/skype.png) no-repeat 0 0;
+}
+.social-icons li.skype a:hover {
+	background-color: #18b7f1;
+}
+.social-icons li.tumblr a {
+	background: url(../img/tumblr.png) no-repeat 0 0;
+}
+.social-icons li.tumblr a:hover {
+	background-color: #3a5976;
+}
+.social-icons li.twitter a {
+	background: url(../img/twitter.png) no-repeat 0 0;
+}
+.social-icons li.twitter a:hover {
+	background-color: #55acee;
+}
+.social-icons li.vimeo a {
+	background: url(../img/vimeo.png) no-repeat 0 0;
+}
+.social-icons li.vimeo a:hover {
+	background-color: #62a0ad;
+}
+.social-icons li.wordpress a {
+	background: url(../img/wordpress.png) no-repeat 0 0;
+}
+.social-icons li.wordpress a:hover {
+	background-color: #464646;
+}
+
+.social-icons li.yelp a {
+	background: url(../img/yelp.png) no-repeat 0 0;
+}
+.social-icons li.yelp a:hover {
+	background-color: #c41200;
+}
+.social-icons li.youtube a {
+	background: url(../img/youtube.png) no-repeat 0 0;
+}
+.social-icons li.youtube a:hover {
+	background-color: #f45750;
+}
