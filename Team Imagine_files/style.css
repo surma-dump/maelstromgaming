@@ -257,7 +257,7 @@ h2, #green {
 }
 
 #second{
-	/*background: url(img/background3.png) 50% 0 no-repeat fixed;*/
+	position: relative;
 	color: white;
 	height: 100%;
 	margin: 0 auto;
@@ -265,24 +265,54 @@ h2, #green {
 	padding: 0;
 }
 
+#second .background {
+	background-image: url(img/background3.png);
+}
 
 #third{
+	position: relative;
 	overflow: hidden;
-	/*background:url(img/background.png) 50% 0 no-repeat fixed;*/
 	height: 100%;
 	color: white;
 	padding: 0 0 0 0;
     margin: 0 auto;
-
 }
 
-#fifth{
-	/*background: url(img/footer.png) 50% 0 no-repeat fixed;*/
+#third .background {
+	background-image: url(img/background.png);
+}
+
+#fifth {
+	position: relative;
 	height: 100%;
 	margin: 0 auto;
 	padding: 0 0 0 0;
 	overflow: hidden;
 }
+
+#fifth .background {
+	background-image: url(img/footer.png);
+}
+
+#second > *:not(.background),
+#third > *:not(.background),
+#fifth > *:not(.background) {
+	z-index: 5;
+	position: relative;
+}
+
+.background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+}
+
+
 
 .story{
 	margin: 0 auto;
