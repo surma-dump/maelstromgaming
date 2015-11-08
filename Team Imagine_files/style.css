@@ -110,25 +110,25 @@ hr.horizontalRule {
     transform: rotate(45deg);
 
 }
-#third .triangle-topleft {
+#third .triangle-topleft.triangle-topleft {
     float:left;
     position:absolute;
-    top:200%;
+    top:0;
     left:0px;
 	width: 0;
 	height: 0;
-	border-top: 600px solid #6441a5;
-	border-right: 600px solid transparent;
+	border-top: 33vw solid #6441a5;
+	border-right: 33vw solid transparent;
 }
-.triangle-bottomright {
+#third .triangle-bottomright.triangle-bottomright {
     float:right;
     position:absolute;
-    bottom:-200%;
+    bottom:0;
     right:0px;
 	width: 0;
 	height: 0;
-	border-bottom: 600px solid #6441a5;
-	border-left: 600px solid transparent;
+	border-bottom: 33vw solid #6441a5;
+	border-left: 33vw solid transparent;
 }
 
 
