@@ -39,7 +39,7 @@ body{
     padding:0px;
     text-align:center;
     align-content:center;
-    
+
     display: inline-block;
     display: table;
     width: 50%;
@@ -77,14 +77,14 @@ hr.horizontalRule {
 	    font-size-adjust:0.531;
 	    font-weight:500;
 	    font-style:normal;
-    
+
     }
     .footer p {
         font-family:"Proxima Nova Light", 'Helvetica Neue', Arial, Helvetica, sans-serif;
 	    font-size-adjust:0.531;
 	    font-weight:500;
 	    font-style:normal;
-    
+
     }
 
 .container {
@@ -135,7 +135,7 @@ hr.horizontalRule {
 
 p{
 	font-family:"Proxima Nova Light", 'Helvetica Neue', Arial, Helvetica, sans-serif;
-	margin: 0 0 20px 0;	
+	margin: 0 0 20px 0;
 }
 
 p, ul{
@@ -217,7 +217,7 @@ h2, #green {
 }
 
 .float-left{
-	float: left;	
+	float: left;
 	margin: 0 0 0 20px;
 }
 
@@ -241,7 +241,7 @@ h2, #green {
 }
 
 #nav li{
-	margin: 0 0 15px 0;	
+	margin: 0 0 15px 0;
 }
 
 #header, #intro, #second{
@@ -257,7 +257,7 @@ h2, #green {
 }
 
 #second{
-	background: url(img/background3.png) 50% 0 no-repeat fixed;
+	/*background: url(img/background3.png) 50% 0 no-repeat fixed;*/
 	color: white;
 	height: 100%;
 	margin: 0 auto;
@@ -268,16 +268,16 @@ h2, #green {
 
 #third{
 	overflow: hidden;
-	background:url(img/background.png) 50% 0 no-repeat fixed;
+	/*background:url(img/background.png) 50% 0 no-repeat fixed;*/
 	height: 100%;
 	color: white;
-	padding: 0 0 0 0;		
+	padding: 0 0 0 0;
     margin: 0 auto;
 
 }
 
 #fifth{
-	background: url(img/footer.png) 50% 0 no-repeat fixed;
+	/*background: url(img/footer.png) 50% 0 no-repeat fixed;*/
 	height: 100%;
 	margin: 0 auto;
 	padding: 0 0 0 0;
@@ -294,5 +294,5 @@ h2, #green {
 .story .float-left, .story .float-right{
 	padding: 100px 0 0 0;
 	position: relative;
-	width: 350px;	
+	width: 350px;
 }
