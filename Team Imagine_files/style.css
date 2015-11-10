@@ -276,6 +276,8 @@ h2, #green {
 	color: white;
 	padding: 0 0 0 0;
     margin: 0 auto;
+	display: flex;
+	align-items: center;
 }
 
 #third .background {
