@@ -266,7 +266,7 @@ h2, #green {
 }
 
 #second .background {
-	background-image: url(img/background3.png);
+	background-image: url(img/background3.jpg);
 }
 
 #third{
@@ -281,7 +281,7 @@ h2, #green {
 }
 
 #third .background {
-	background-image: url(img/background.png);
+	background-image: url(img/background.jpg);
 }
 
 #fifth {
@@ -293,7 +293,7 @@ h2, #green {
 }
 
 #fifth .background {
-	background-image: url(img/footer.png);
+	background-image: url(img/footer.jpg);
 }
 
 #second > *:not(.background),
